@@ -1,0 +1,47 @@
+header{
+    width: 100%;
+    background-color: cadetblue;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.home{
+    width: 100%;
+    background-color: red;
+    height: 800px;
+    margin-bottom: 30px;
+}
+.collection{
+    width: 100%;
+    background-color: blue;
+    height: 500px;
+    margin-bottom: 30px;
+}
+.featured{
+    width: 100%;
+    background-color: green;
+    height: 300px;
+    margin-bottom: 30px;
+}
+.offers{
+    width: 100%;
+    background-color: yellow;
+    height: 300px;
+    margin-bottom: 30px;
+}
+.new-arrival{
+    width: 100%;
+    background-color: black;
+    height: 300px;
+    margin-bottom: 30px;
+}
+.sponser{
+    width: 100%;
+    background-color: orange;
+    height: 500px;
+    margin-bottom: 30px;
+}
+.footer{
+    width: 100%;
+    background-color: darkmagenta;
+    height: 100px;
+}
