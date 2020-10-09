@@ -1,14 +1,117 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 3rem 0 0 0;
+    font-family: sans-serif;
+    font-size: 0.938rem;
+    color: black;
+    line-height: 1.6;
+}
+h1,h2,p{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#606060;
+}
+.section{
+    padding: 3rem 0;
+}
+.section-title{
+    font-size: 1.25rem;
+    color: #606060;
+    margin: 2rem 0 0.5rem;
+    text-align: center;
+}
+.section-all{
+    display: block;
+    font-size: .75rem;
+    font-weight: 600;
+    color: #606060;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.bd-grid{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
 header{
     width: 100%;
-    background-color: cadetblue;
-    height: 100px;
+    position: fixed;
     margin-bottom: 30px;
+    top: 0;
+    left: 0;  
+    z-index: 100;
+    background-color: gray;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.nav-cart{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.nav-toggle{
+    font-size: 1.5rem;cursor: pointer;
+}
+.show{
+    right: 0;
+}
+.active{
+    color: #E55947;
 }
 .home{
-    width: 100%;
-    background-color: red;
-    height: 800px;
-    margin-bottom: 30px;
+    background-color: grey;
+}
+.home-container{
+    height: calc(100vh - 3rem);
+}
+.home-data{
+    padding-top: 6rem;
+}
+.home-title{
+    align-self: center;
+    font-size: 3rem;
+    line-height: 1;
+    letter-spacing: .5rem;
+    margin-bottom: 4rem;
+}
+.home-title span{
+    font-size: 1.5rem;
+}
+.home-img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 260px;
+}
+.button{
+    display: inline-block;
+    background-color: #E55947;
+    color:white;
+    padding: 1rem;
+    font-size: .75rem;
+    font-weight: 600;
+    transition: .3s;
+}
+.button:hover{
+    background-color: #D2321E;
+    text-decoration: none;
+    color: white;
 }
 .collection{
     width: 100%;
