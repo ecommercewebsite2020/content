@@ -7,72 +7,113 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <title>E commerce Website</title>
   </head>
   <body>
       <header class="header">
-         <nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top">
-        <a class="navbar-brand display-1" href="#"><img src="img/lotto-india-logo.png" class="heading">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        
-        <div class=" navbar-collapse" >
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" id="one" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="two" href="#">Contact Us</a>
-                </li>
-                
-                <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
-                    About
-                </a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Winning Numbers</a>
-                    <a class="dropdown-item" href="#">Past Winners</a>
-                    <a class="dropdown-item" href="#">Queries</a>
-                    <div class="dropdown-divider"></div>
-                </div>
-                </li>
-            </ul>
-        </div>
-        </div>
-    </nav>
+          <nav class="nav bd-grid">
+              <a href="#" class="logo">abcd</a>
+          </nav>
       </header>
-      <main class="main">
+      <div class="container">
+      <main>
           <section class="home" id="home">
-             <div class="home-container bd-grid">
-                 <div class="home-data">
-                     <h1 class="home-title">NEW<br><span>ARRIVALS</span></h1>
-                     <a href="#featured" class="button">GO SHOPPING</a>
+              
+          </section>
+          <section class="collection">
+              <div class="men">
+                 <img class="men-img" src="images/men.jpg">
+                 <div id="content">
+                  <h2>MEN</h2>
+                  <h1>T-SHIRTS</h1><br>
+                  <a id="view" href="#">View Collection</a>
                  </div>
-                 <img src="/assets/home.png" alt="" class="home-img">
-             </div>
+              </div>
+              <div class="women">
+                <div id="content">
+                 <h2>WOMEN</h2>
+                 <h1>T-SHIRTS</h1><br>
+                 <a id="view" href="#">View Collection</a>
+                </div>
+                <img class="women-img" src="images/women.jpg">
+              </div>
+          </section>
+          <section class="featured">
               
           </section>
-          <section class="collection" id="collection">
-              
-          </section>
-          <section class="featured" id="featured">
-              
-          </section>
-          <section class="offers" id="offers">
-              
-          </section>
-          <section class="new-arrival" id="new-arrival">
+          
+          <section class="new-arrival" id="new">
+              <h2 class="section-title">NEW ARRIVALS</h2>
+              <a href="#" class="section-all">View All</a>
+
+              <div class="new-container bd-grid">
+                <div class="new-box">
+                  <img src="images/new-1.jfif" alt="" class="new-img">
+                  
+                  <div class="new-link">
+                    <a href="" class="button">VIEW PRODUCT</a>
+                  </div>
+                </div>
+
+                <div class="new-box">
+                  <img src="images/new-2.jfif" alt="" class="new-img">
+                  
+                  <div class="new-link">
+                    <a href="3" class="button">VIEW PRODUCT</a>
+                  </div>
+                </div>
+
+                <div class="new-box">
+                  <img src="images/new-3.jfif" alt="" class="new-img">
+                  
+                  <div class="new-link">
+                    <a href="#" class="button">VIEW PRODUCT</a>
+                  </div>
+                </div>
+
+                <div class="new-box">
+                  <img src="images/new-4.jfif" alt="" class="new-img">
+                
+                  <div class="new-link">
+                    <a href="#" class="button">VIEW PRODUCT</a>
+                  </div>
+                </div>
+
+                <div class="new-box">
+                  <img src="images/new-5.jfif" alt="" class="new-img">
+                  
+                  <div class="new-link">
+                    <a href="#" class="button">VIEW PRODUCT</a>
+                  </div>
+                </div>
+             
+                <div class="new-box">
+                  <img src="images/new-6.jfif" alt="" class="new-img">
+                  
+                  <div class="new-link">
+                    <a href="#" class="button">VIEW PRODUCT</a>
+                  </div>
+                </div>
+              </div>
               
           </section>
           <section class="sponser">
-              
+            <h2 id="newsletter">OUR NEWSLETTER</h2>
+            <p id="sign-up">Sign up for our e-mail and be the first who know our special offers!
+            Furthermore,we will give a 15% discount on the next order after you sign up</p>
+            <input type="email"placeholder="   Enter your e-mail" id="email">
+            <input type="submit" class="subscribe">
+            <div class="sponsored-imgs">
+              <img class="sponsored-img" src="images/logo1.png">
+              <img class="sponsored-img" src="images/logo2.png">
+              <img class="sponsored-img" src="images/logo3.png">
+              <img class="sponsored-img" src="images/logo4.png">
+            </div>
           </section>
       </main>
+       </div>
         <footer class="footer"></footer>
 
         
